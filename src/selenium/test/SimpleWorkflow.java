@@ -10,6 +10,7 @@ public class SimpleWorkflow extends BaseClass{
   @Test(priority=1)
   public void openURL() throws Exception {
 	  
+	  //sample
 	  //throw new SkipException("Skipped the workflow");
 	  
 	  log.debug("Started Test");
@@ -20,6 +21,7 @@ public class SimpleWorkflow extends BaseClass{
 	  //takeScreenShot("GoogleHomePage", webdriver);
 	  webdriver.findElement(By.xpath(".//input[@value=\"I'm Feeling Lucky\"]")).click();
 	  //takeScreenShot("IamFeelingLucky", webdriver);
+	  
 	  try {
 		Thread.sleep(2000);
 	} catch (InterruptedException e) {
