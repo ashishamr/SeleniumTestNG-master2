@@ -11,6 +11,7 @@ public class SimpleWorkflow extends BaseClass{
   public void openURL() throws Exception {
 	  
 	  //sample
+	  //sample2
 	  //throw new SkipException("Skipped the workflow");
 	  
 	  log.debug("Started Test");
